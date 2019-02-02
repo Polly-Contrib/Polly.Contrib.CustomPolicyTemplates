@@ -8,8 +8,8 @@
     </description>
     <language>en-US</language>
     <license type="expression">BSD-3-Clause</license>
-    <iconUrl>https://raw.github.com/App-vNext/Polly.Contrib.ProactiveCustomPolicyTemplate/master/Polly.Contrib.ProactiveCustomPolicyTemplate.png</iconUrl>
-    <projectUrl>https://github.com/App-vNext/Polly.Contrib.ProactiveCustomPolicyTemplate</projectUrl>
+    <iconUrl>https://raw.github.com/App-vNext/Polly/master/Polly.png</iconUrl>
+    <projectUrl>https://github.com/Polly-Contrib/Polly.Contrib.CustomPolicyTemplates</projectUrl>
     <copyright>Copyright © 2019, App vNext and contributors</copyright>
     <releaseNotes>
      0.1.0
