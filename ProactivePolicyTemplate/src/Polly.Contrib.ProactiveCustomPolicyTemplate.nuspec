@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <owners>App vNext</owners>
+    <authors>App vNext</authors>
+    <description>
+      Polly.Contrib.ProactiveCustomPolicyTemplate is a blank template for developing custom policies, integrating with the Polly resilience project for .NET
+    </description>
+    <language>en-US</language>
+    <license type="expression">BSD-3-Clause</license>
+    <iconUrl>https://raw.github.com/App-vNext/Polly.Contrib.ProactiveCustomPolicyTemplate/master/Polly.Contrib.ProactiveCustomPolicyTemplate.png</iconUrl>
+    <projectUrl>https://github.com/App-vNext/Polly.Contrib.ProactiveCustomPolicyTemplate</projectUrl>
+    <copyright>Copyright © 2019, App vNext and contributors</copyright>
+    <releaseNotes>
+     0.1.0
+     ---------------------
+     - Initial launch
+   </releaseNotes>
+    <dependencies>
+      <group targetFramework="netstandard1.1">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework="netstandard2.0"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\**\*.*" target="lib" exclude="**\*.unsigned" />
+  </files>
+</package>
