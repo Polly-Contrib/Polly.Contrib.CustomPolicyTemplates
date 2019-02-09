@@ -15,7 +15,7 @@
         )
         {
             return new AsyncReactiveFooPolicy(
-                policyBuilder.ExceptionPredicates
+                policyBuilder
                 /* ... and pass it on to the constructor. */
             );
         }

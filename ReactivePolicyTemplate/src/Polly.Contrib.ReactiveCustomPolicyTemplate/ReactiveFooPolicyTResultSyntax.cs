@@ -16,8 +16,7 @@
         )
         {
             return new ReactiveFooPolicy<TResult>(
-                policyBuilder.ExceptionPredicates,
-                policyBuilder.ResultPredicates
+                policyBuilder
                 /* ... and pass it on to the constructor. */
             );
         }

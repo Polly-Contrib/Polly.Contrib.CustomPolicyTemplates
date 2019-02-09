@@ -15,9 +15,9 @@ namespace Polly.Contrib.ReactiveCustomPolicyTemplate /* Use a namespace broadly 
          */
 
         internal ReactiveFooPolicy(
-            ExceptionPredicates exceptionPredicates
+            PolicyBuilder policyBuilder
             /* other configuration parameters */)
-            : base(exceptionPredicates)
+            : base(policyBuilder)
         {
             /* store any configuration parameters for the implementation to use. */
         }

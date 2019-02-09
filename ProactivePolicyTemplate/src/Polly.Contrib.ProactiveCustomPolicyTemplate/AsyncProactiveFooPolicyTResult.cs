@@ -28,7 +28,6 @@ namespace Polly.Contrib.ProactiveCustomPolicyTemplate /* Use a namespace broadly
         }
 
         internal AsyncProactiveFooPolicy(/* configuration parameters */)
-            : base(ExceptionPredicates.None, ResultPredicates<TResult>.None)
         {
             /* ... and the policy constructor can store configuration, for the implementation to use. */
         }
