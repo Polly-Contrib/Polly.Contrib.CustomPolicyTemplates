@@ -29,7 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-      <_Parameter1>Polly.Contrib.BlankTemplate.Specs</_Parameter1>
+      <_Parameter1>Polly.Contrib.ReactiveCustomPolicyTemplate.Specs</_Parameter1>
     </AssemblyAttribute>
   </ItemGroup>
   <ItemGroup>
