@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.1;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard1.1;netstandard2.0;net461;net472</TargetFrameworks>
     <AssemblyName>Polly.Contrib.ProactiveCustomPolicyTemplate</AssemblyName>
     <RootNamespace>Polly.Contrib.ProactiveCustomPolicyTemplate</RootNamespace>
     <Version>0.1.0-NotFromGitRepo</Version>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
-    <FileVersion>0.1.0</FileVersion>
-    <InformationalVersion>0.1.0</InformationalVersion>
     <PackageVersion>0.1.0-NotFromGitRepo</PackageVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <InformationalVersion>0.1.0.0</InformationalVersion>
     <Company>App vNext</Company>
     <Copyright>Copyright (c) 2019, App vNext and contributors</Copyright>
     <Description>Polly.Contrib.BlankTemplate is a blank template for Polly.Contrib contributions, integrating with the Polly resilience project for .NET</Description>
@@ -33,6 +33,6 @@
     </AssemblyAttribute>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Polly" Version="7.0.3" />
+    <PackageReference Include="Polly" Version="7.2.0" />
   </ItemGroup>
 </Project>
